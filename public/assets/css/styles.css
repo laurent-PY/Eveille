@@ -1,0 +1,18 @@
+.cc-navbar .nav-link {
+
+    font-size: 24px;
+    letter-spacing: .2rem;
+    transition: padding-bottom .4s ease-in-out, border-colo .3s ease;
+
+}
+
+.cc-navbar .nav-link:hover,
+.cc-navbar .nav-link:active,
+.cc-navbar .nav-link:focus {
+    /* padding-bottom: 5px; */
+    border-bottom-color: rgb(72, 75, 246);
+    text-decoration: underline;
+    text-decoration-style: solid;
+
+
+}

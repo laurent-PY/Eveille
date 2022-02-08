@@ -1,20 +1,57 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello HomeController!{% endblock %}
+{% block title %}Hello HomeController!
+{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+	<div class="row">
+		<div class="col-12 text-center mt-5 mainTitle">
+			<h2>S'ÉVEILLER À SON VÉRITABLE SOI</h2>
+		</div>
+	</div>
+	<div class="row mainTitle text-center my-5 d-flex justify-content-center align-items-center">
+		<div class="col-12">
+			<h3 class="my-5">
+				Bienvenue
+			</h3>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+			<p>
+				Je suis Danielle, ce site de Voyance et de Soins Énergétiques a été crée dans le but de vous apporter de l'aide dans votre vie, du soutien et des réponses à vos questions.
+			</p>
+			<p>
+				Une séance de voyance vous permettra de recevoir des réponses à vos interrogations dans tous les domaines de vie.
+			</p>
+			<p>
+				Les soins énergétiques vous aideront à élever votre taux de vitalité, à vous libérer du stress et des angoisses, à vous apporter de la détente... les bienfaits sont nombreux...
+			</p>
+			<p>
+				Je vous invite à cliquer dans la rubrique de votre choix tout en haut de la page, vous trouverez des informations concernant mes prestations.
+			</p>
+			<p>
+				A très vite !
+			</p>
+		</div>
+	</div>
+	<div class="row mx-5 ">
+		<div class="col-2"></div>
+		<div class="col-8 homeBottom">
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/Users/Laurent/Documents/_16Symfony_Cours/eveille/src/Controller/HomeController.php'|file_link(0) }}">src/Controller/HomeController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/Users/Laurent/Documents/_16Symfony_Cours/eveille/templates/home/index.html.twig'|file_link(0) }}">templates/home/index.html.twig</a></code></li>
-    </ul>
-</div>
+			<h5 class="my-2 text-center ">DANS LE CADRE DANS MA PRATIQUE ENERGETIQUE :</h5>
+			<ul>
+				<li class="my-1">
+					Les soins énergétiques ne posent pas de diagnostics et ne se substituent en aucun cas à un traitement médical, donc aucune prescription médicale. Il est recommandé de consulter son médecin traitant dans un premier temps pour déterminer la cause des troubles.
+				</li>
+				<li class="my-1">
+					Respecter le secret professionnel et d’observer la plus grande discrétion en toutes circonstances.
+				</li>
+				<li class="my-1">
+					Je ne pratique pas de soins énergétiques à distance sur des personnes non-consentantes.
+				</li>
+				<li class="my-1">
+					Les soins énergétiques sont un complément et possèdent l’avantage d’être compatibles avec tout traitement médical.
+				</li>
+			</ul>
+		</div>
+		<div class="col-2"></div>
+	</div>
 {% endblock %}
